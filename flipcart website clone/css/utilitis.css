@@ -1,0 +1,25 @@
+.flex-all-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 4px;
+    background-color: var(--main-bg-color);
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px ;
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+   font-weight: 900;
+}
+.my-1{
+    margin: 5px 0px;  
+}
+.my-2{
+    margin: 25px 0px;  
+}
