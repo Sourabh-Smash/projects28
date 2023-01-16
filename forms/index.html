@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>forms</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html{
+			font-size: 16px;
+		}
+		body{
+			background-color: bisque;
+		}
+		.container{
+			background-color: #897fffb0;
+			color: rgb(233, 226, 214);
+			margin: 3px;
+			padding: 14px;
+			padding-right: 4px;
+		}
+                .box{
+			padding: 5px;
+			border: 2px solid peachpuff;	
+		}
+		#button{
+                      border: 2px solid black;
+		      border-radius: 5px;
+		      padding: 5px;
+		      margin-right: 20px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Enter your Details</h1>
+		<h3>Required are followed by *</h3>
+	</div>
+	<div class="box">
+		<form>
+			Name: * <input type="text" name="name" placeholder="Enter name" required><br><br>
+			Email: * <input type="email" name="email" placeholder="Enter email" required><br><br>
+			Date of Birth: * <input type="date" name="DOB" required><br><br>
+			Phone no: * <input type="number" name="phone no" required placeholder="enter 9 digit phone no."><br><br>
+			Gender: * Male <input type="radio" name="gender" required> female <input type="radio" name="gender" > others <input type="radio" name="gender"> <br><br>
+			City: * <select name="city" required >
+				<option value="">--select--</option>
+				<option value="Udaipur">Udaipur</option>
+				<option value="Jaipur">Jaipur</option>
+				<option value="Jodhpur">Jodhpur</option>
+			</select><br><br>
+			Address: <textarea name="address"  cols="50" rows="1"></textarea><br><br>
+			<button id="button" value="button ">save</button>
+
+		</form>
+	</div>
+</body>
+</html>
